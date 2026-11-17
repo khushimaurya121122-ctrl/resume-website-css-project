@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#1e3a2f">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khushi Kumari, BBA Digital Business and Entrepreneurship student at IIM Bangalore.">
+  <title>Khushi Kumari | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@500;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- 1. NAVIGATION -->
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="Khushi Kumari, home">Khushi<span class="brand-dot">.</span></a>
+    <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+    <nav id="nav-menu" class="nav-menu" aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#judo">Judo</a></li>
+        <li><a href="#learning">Learning Journey</a></li>
+        <li><a href="#approach">My Approach</a></li>
+        <li><a href="#interests">Areas of Interest</a></li>
+        <li><a class="nav-cta" href="#contact">Let’s Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- 2. HERO -->
+    <section id="home">
+      <span class="bg-initials" aria-hidden="true">KK</span>
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="badge"><span class="dot" aria-hidden="true"></span>Open to internships and opportunities</p>
+          <h1>Hi, I’m<br>Khushi Kumari.<br><span class="soft">Learning every day, on and off the mat.</span></h1>
+          <p class="lead">I’m a first-year BBA student in Digital Business and Entrepreneurship at IIM Bangalore. I’m curious about how businesses grow, and judo has taught me the discipline to keep learning.</p>
+          <p>I like understanding how ideas, technology and creativity come together, and I’m focused on learning, experimenting and building practical skills, one step at a time. I’m looking for an opportunity to learn from a real team and contribute.</p>
+          <div class="button-row">
+            <a class="button button-solid" href="#contact">Let’s Connect</a>
+            <a class="button button-line" href="#about">Explore My Profile</a>
+            <a class="text-link" href="https://www.linkedin.com/in/khushi-kumari-a5369a437" target="_blank" rel="noopener">LinkedIn &nearr;</a>
+          </div>
+        </div>
+
+        <!-- Circular photo with a rotating text ring (SVG textPath) -->
+        <div class="photo-wrap">
+          <svg class="ring-text" viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="ring-path" d="M 100,100 m -86,0 a 86,86 0 1,1 172,0 a 86,86 0 1,1 -172,0"/></defs>
+            <text><textPath href="#ring-path" textLength="535" lengthAdjust="spacing">BBA DBE &bull; IIM BANGALORE &bull; JUDO &bull; DISCIPLINE &bull; CURIOSITY &bull; </textPath></text>
+          </svg>
+          <img class="portrait" src="images/khushi.jpg" alt="Portrait of Khushi Kumari" width="900" height="900">
+        </div>
+      </div>
+    </section>
+
+    <!-- Scrolling ribbon of interests -->
+    <div class="ribbon" aria-hidden="true">
+      <div class="ribbon-track"><span>Digital Marketing</span><span>Business Strategy</span><span>Entrepreneurship</span><span>Judo</span><span>Discipline</span><span>Branding</span><span>Innovation</span><span>Creative Problem Solving</span><span>Digital Marketing</span><span>Business Strategy</span><span>Entrepreneurship</span><span>Judo</span><span>Discipline</span><span>Branding</span><span>Innovation</span><span>Creative Problem Solving</span></div>
+    </div>
+
+    <!-- Quick facts strip -->
+    <section class="info-strip" aria-label="Quick facts">
+      <ul class="container info-grid">
+        <li><span class="info-label">Programme</span><span class="info-value">BBA, Digital Business and Entrepreneurship</span></li>
+        <li><span class="info-label">Institution</span><span class="info-value">IIM Bangalore</span></li>
+        <li><span class="info-label">Current stage</span><span class="info-value">First Year</span></li>
+        <li><span class="info-label">Beyond studies</span><span class="info-value">Judo</span></li>
+      </ul>
+    </section>
+
+    <!-- 3. ABOUT -->
+    <section id="about" class="bg-beige">
+      <div class="container split">
+        <h2 class="split-title">A Little About Me</h2>
+        <div class="prose">
+          <p>I’m a first-year BBA student specialising in Digital Business and Entrepreneurship at IIM Bangalore. I’m still early in my journey, and that’s exactly what makes it exciting: every class, conversation and project opens up a new way of looking at how businesses work.</p>
+          <p>I’m fascinated by the digital business ecosystem, and by how companies use technology to reach people and create value. I’m especially curious about branding and marketing, and about why some brands become memorable while others are forgotten.</p>
+          <p>I enjoy understanding the thinking behind business strategies, and I’m learning to ask better questions about them. Alongside my coursework, I focus on continuous learning and building practical skills, including the HTML and CSS used to build this website.</p>
+          <p>Away from books, I practise judo. It has taught me discipline, respect and how to get back up after a fall, and I try to bring those habits into my studies too.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. EDUCATION (dark section) -->
+    <section id="education" class="bg-forest">
+      <div class="container">
+        <h2>My Academic Journey</h2>
+        <article class="edu-card">
+          <p class="edu-status">Currently Pursuing &middot; First Year</p>
+          <h3>Bachelor of Business Administration (BBA)</h3>
+          <dl class="edu-details">
+            <div><dt>Specialisation</dt><dd>Digital Business and Entrepreneurship</dd></div>
+            <div><dt>Institution</dt><dd>Indian Institute of Management Bangalore</dd></div>
+          </dl>
+        </article>
+
+        <h3 class="edu-subhead">School Education</h3>
+        <div class="school-grid">
+          <article class="school-card">
+            <p class="school-year">2023 &ndash; 2025</p>
+            <h3>Class XII</h3>
+            <p class="school-name">Shantiniketan Secondary School</p>
+            <p class="score">84.2<span>%</span></p>
+          </article>
+          <article class="school-card">
+            <p class="school-year">2023</p>
+            <h3>Class X</h3>
+            <p class="school-name">Shantiniketan Secondary School</p>
+            <p class="score">91.4<span>%</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <h2>Areas I’m Developing</h2>
+        <p class="section-intro">I’m at the start of my learning journey, so these are areas I’m actively building rather than areas I’ve mastered.</p>
+        <div class="skill-grid">
+          <article class="skill-card wide dark">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11v2l11 4V7L3 11zM14 9a3 3 0 010 6M6 14l1.5 5h2L8 14.5"/></svg>
+            <h3>Digital Marketing</h3>
+            <p>Learning how brands find and connect with audiences online.</p>
+          </article>
+          <article class="skill-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+            <h3>Business Fundamentals</h3>
+            <p>Building a base in management, markets and decision making.</p>
+          </article>
+          <article class="skill-card sage">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+            <h3>HTML &amp; CSS</h3>
+            <p>Learning to structure and style web pages, as shown in this site.</p>
+          </article>
+          <article class="skill-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5z"/></svg>
+            <h3>Communication</h3>
+            <p>Practising clear writing, speaking and listening.</p>
+          </article>
+          <article class="skill-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0012 3z"/></svg>
+            <h3>Creative Thinking</h3>
+            <p>Exploring fresh ways to look at problems and ideas.</p>
+          </article>
+          <article class="skill-card wide beige">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 2 6 6 5 11l-5 4-5-4c-1-5 1-9 5-11zM9 20l3-2 3 2M12 9v.01"/></svg>
+            <h3>Entrepreneurship</h3>
+            <p>Understanding how ideas grow into ventures.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. JUDO -->
+    <section id="judo" class="bg-charcoal">
+      <span class="kanji" aria-hidden="true">柔道</span>
+      <div class="container split">
+        <div class="split-title">
+          <h2>Beyond the Classroom: Judo</h2>
+          <p>Judo means “the gentle way”. For me, its biggest lesson has been discipline.</p>
+        </div>
+        <div>
+          <p class="judo-intro">Outside my studies, judo is where I’ve learnt the most about myself. Training teaches you that skill is built slowly, through repetition, patience and showing up even on the days you don’t feel like it.</p>
+          <div class="lesson-grid">
+            <article class="lesson">
+              <h3>Discipline</h3>
+              <p>Regular practice matters more than motivation on any single day. Consistency is a habit I carry into my studies.</p>
+            </article>
+            <article class="lesson">
+              <h3>Respect</h3>
+              <p>A bow begins and ends every session, to the mat, the coach and your training partner. Respect is part of the sport.</p>
+            </article>
+            <article class="lesson">
+              <h3>Resilience</h3>
+              <p>You learn to fall safely before you learn to throw. Falling is part of progress: you get up and try again.</p>
+            </article>
+            <article class="lesson">
+              <h3>Focus</h3>
+              <p>On the mat there is no room for distraction. That calm attention helps me when I study and solve problems.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. LEARNING JOURNEY -->
+    <section id="learning" class="bg-beige">
+      <div class="container split">
+        <div class="split-title">
+          <h2>Learning Today, Building Tomorrow</h2>
+          <p>The topics I’m currently exploring and want to go deeper into.</p>
+        </div>
+        <ul class="learn-list">
+          <li><h3>Digital Marketing Fundamentals</h3><p>Core ideas behind reaching and engaging customers online.</p></li>
+          <li><h3>Google Digital Marketing Learning</h3><p>Exploring Google’s learning resources on digital marketing.</p></li>
+          <li><h3>Web Design Fundamentals</h3><p>HTML and CSS basics, and how design choices affect usability.</p></li>
+          <li><h3>Business and Management Concepts</h3><p>Understanding how organisations plan, decide and operate.</p></li>
+          <li><h3>Entrepreneurship and Innovation</h3><p>How new ideas are tested and turned into businesses.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 7. PERSONAL APPROACH -->
+    <section id="approach" class="bg-sage">
+      <div class="container">
+        <h2>My Approach</h2>
+        <div class="approach-grid">
+          <article class="approach-card"><span class="count">01</span><h3>Curiosity</h3><p>Exploring ideas, asking questions and staying open to learning.</p></article>
+          <article class="approach-card"><span class="count">02</span><h3>Consistency</h3><p>Believing that small, consistent efforts create meaningful progress.</p></article>
+          <article class="approach-card"><span class="count">03</span><h3>Practical Learning</h3><p>Connecting academic concepts with practical applications.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. AREAS OF INTEREST -->
+    <section id="interests">
+      <div class="container">
+        <h2>Areas of Interest</h2>
+        <ul class="tag-cloud">
+          <li class="tag tag-lg">Digital Marketing</li>
+          <li class="tag">Business Strategy</li>
+          <li class="tag tag-fill">Entrepreneurship</li>
+          <li class="tag">Branding</li>
+          <li class="tag tag-lg">Technology</li>
+          <li class="tag tag-fill">Innovation</li>
+          <li class="tag">Creative Problem Solving</li>
+          <li class="tag tag-lg">Digital Business</li>
+          <li class="tag tag-fill">Judo</li>
+          <li class="tag">Discipline</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 9. CONTACT -->
+    <section id="contact" class="bg-forest">
+      <div class="container contact">
+        <h2>Let’s work together.</h2>
+        <p>I’m looking for internships and entry-level opportunities where I can learn, contribute and grow. If you think I could be a good fit for your team, I’d love to hear from you.</p>
+        <div class="contact-actions">
+          <a class="button button-mail" href="mailto:khushimaurya121122@gmail.com?subject=Opportunity%20for%20Khushi%20Kumari">Email Me</a>
+          <a class="button button-light" href="https://www.linkedin.com/in/khushi-kumari-a5369a437" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        </div>
+        <a class="email-link" href="mailto:khushimaurya121122@gmail.com">khushimaurya121122@gmail.com</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 10. FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-name">Khushi Kumari</p>
+        <p>Personal Portfolio</p>
+      </div>
+      <div>
+        <a href="mailto:khushimaurya121122@gmail.com">khushimaurya121122@gmail.com</a>
+        <a href="https://www.linkedin.com/in/khushi-kumari-a5369a437" target="_blank" rel="noopener">LinkedIn</a>
+        <p>&copy; 2026 Khushi Kumari</p>
+      </div>
+      <a class="to-top" href="#home">Back to Top</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
